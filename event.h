@@ -7,6 +7,7 @@
 #include "object.h"
 #include "reaction.h"
 
+
 // event 通过 obj_pos和event_type 定位哪个团簇的哪个反应。
 class Event {
 public:

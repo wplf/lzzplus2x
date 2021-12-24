@@ -20,7 +20,7 @@ cascade_interval -1
 #1~time	2~loop
 stop_criteria 1
 max_step 10000
-max_time 1.25e-6
+max_time 1
 
 
 output_combine_reaction 1
@@ -38,9 +38,9 @@ big_clu_definition 100
 Be_trap_mutation 1
 
 He_insert 1
-He_flux 4e25
+He_flux 3e22
 
-Be_insert -1
+Be_insert 1
 Be_flux 3e20
 
 

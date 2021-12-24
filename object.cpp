@@ -43,7 +43,6 @@ bool Object::refresh_obj(const Database& _database, const Setting& _setting){
 	}
 	// 平移之后刷新格子
 	refresh_grid_pos(_setting);
-	
 	refresh_radius(_database, _setting);
 	cal_frequency(_database, _setting);
 	return true;

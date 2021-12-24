@@ -9,13 +9,15 @@
 #include<algorithm>
 #include<cmath>
 #include<set>
-
+#include<map>
 #include"database.h"
 #include"setting.h"
 #include"random.h"
 
 #define PI 3.1415926
 // 创造一个obj的关键输入参数为  key_information 和 position_vector
+
+
 
 // 一个obj的关键属性为， 必须拥有的参数为：
 // m_label, m_possib, m_kind, m_size, m_position, m_site

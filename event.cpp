@@ -2,6 +2,7 @@
 #include <cassert>
 
 
+
 //  -1~insert_cascade, 0~mig, 1~emit_1, 2~emit_2, 3~emit_3, 4~emit_4, 5~rotation, 6~trap_mutation, 7~He_insert_3, 8~Be_insert_2
 double build_event_list(std::vector<Object*>& _obj_ptr_list, std::vector<Event>& _event_list, const Setting& _setting)
 {
@@ -485,20 +486,100 @@ std::string choose_cascade_to_insert(Setting& _set)
 }
 
 
+// 修改event中插入Be的深度分布，设置其数据为SRIM 100 eV数据
+std::map < double, double> five_eVBe = {
+	{0.00,  0.00},
+	{1.01,  0.12},
+	{2.01,  0.13},
+	{3.01,  0.53},
+	{4.01,  0.73},
+	{5.01,  0.86},
+	{6.01,  0.94},
+	{7.01,  0.98},
+	{8.01,  0.99},
+	{9.01,  1.00},
+};
+std::map < double, double> one_hundred_eVBe = {
+{0.00000 ,	0.00000	},
+{0.00962 ,	1.01000	},
+{0.02738 ,	2.01000	},
+{0.05644 ,	3.01000	},
+{0.09368 ,	4.01000	},
+{0.13792 ,	5.01000	},
+{0.18795 ,	6.01000	},
+{0.24018 ,	7.01000	},
+{0.29540 ,	8.01000	},
+{0.35242 ,	9.01000	},
+{0.41021 ,	10.01000},
+{0.46678 ,	11.01000},
+{0.52255 ,	12.01000},
+{0.57609 ,	13.01000},
+{0.62741 ,	14.01000},
+{0.67579 ,	15.01000},
+{0.71906 ,	16.01000},
+{0.75701 ,	17.01000},
+{0.79299 ,	18.01000},
+{0.82438 ,	19.01000},
+{0.85307 ,	20.01000},
+{0.87765 ,	21.01000},
+{0.89890 ,	22.01000},
+{0.91684 ,	23.01000},
+{0.93254 ,	24.01000},
+{0.94503 ,	25.01000},
+{0.95627 ,	26.01000},
+{0.96474 ,	27.01000},
+{0.97224 ,	28.01000},
+{0.97859 ,	29.01000},
+{0.98308 ,	30.01000},
+{0.98674 ,	31.01000},
+{0.98985 ,	32.01000},
+{0.99229 ,	33.01000},
+{0.99405 ,	34.01000},
+{0.99555 ,	35.01000},
+{0.99685 ,	36.01000},
+{0.99754 ,	37.01000},
+{0.99824 ,	38.01000},
+{0.99870 ,	39.01000},
+{0.99908 ,	40.01000},
+{0.99933 ,	41.01000},
+{0.99950 ,	42.01000},
+{0.99969 ,	43.01000},
+{0.99983 ,	44.01000},
+{0.99987 ,	45.01000},
+{0.99994 ,	46.01000},
+{0.99994 ,	47.01000},
+{0.99998 ,	48.01000},
+{1.00000 ,	56.01000},
+};
+std::map < double, double> five_eVHe;
+std::map < double, double> one_hundred_eVHe;
+
+
 void insert_obj(int _insert_element, std::vector<Object*>& _obj_ptr_list, const Database& _database, const Setting& _setting) {
 	int type = -1;  int dir = 0;
 	int size0 = 0; int size1 = 0; int size2 = 0; int size3 = 0;
+	double z = 0;
+	double upper(0), lower(0);
+	auto iter = one_hundred_eVBe.upper_bound(uni());
+
 	switch (_insert_element) {
 	case 0:	size0 = 1; break;
 	case 1: size1 = 1; break;
-	case 2: size2 = 1; break;
-	case 3: size3 = 1; Object::he_insert_num++; break;
+	case 2: 
+		size2 = 1;
+		upper = iter->second; iter--; lower = iter->second;
+		z = lower + (upper - lower) * uni();
+		break;
+	case 3: 
+		size3 = 1; 
+		Object::he_insert_num++;
+		z = (0.16 / _setting.a0 * 10) - (1.65 / _setting.a0 * 10) * log(1.0 - uni());
+		break;
 	default: std::cout << "insert_obj中_insert_element异常：" << _insert_element << '\n'; break;
 	}
 
 	double x = uni() * _setting.box_max[0];
 	double y = uni() * _setting.box_max[1];
-	double z = (0.16 / _setting.a0 * 10) - (1.65 / _setting.a0 * 10) * log(1.0 - uni());
 
 	Object* ptr_obj = new Object(type, x, y, z, size0, size1, size2, size3, dir, _database, _setting);
 	_obj_ptr_list.push_back(ptr_obj);
