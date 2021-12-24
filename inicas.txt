@@ -1,0 +1,6 @@
+# program can set type automatic when type == -1
+# {"1", "V---"},	{"2", "-W--"},	{"3", "--Be-"},	{"4", "---He"},
+# {"5", "VW--"},	{"6", "V-Be-"},	{"7", "V--He"},	{"8", "-WBe-"},
+# {"11", "VWBe-"},	{"12", "VW-He"},	{"13", "V-BeHe"},	{"14", "-WBeHe"},{"15", "VWBeHe"}
+# no direction~0;	111~1;	-111~2;	1-11~3;	11-1~4
+#id, type, x, y, z, size0, size1, size2, size3, dir

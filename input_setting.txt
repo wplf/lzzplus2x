@@ -1,0 +1,113 @@
+# lines starting with "#" is omitted
+# blank lines are acceptable
+# line format: variable_name variable_value
+
+##########################经常要改的参数#################################
+# they are the upper bonds and lower bonds for the simulation box, unit = lattice parameter
+x_min 0
+y_min 0
+z_min 0
+x_max 98
+y_max 102
+z_max 315
+temperature 933
+
+total_output 500
+output_per_n_step 0
+
+cascade_interval -1
+
+#1~time	2~loop
+stop_criteria 1
+max_step 10000
+max_time 1.25e-6
+
+
+output_combine_reaction 1
+output_emit_reaction 1
+output_trap_mutation 1
+output_out_bound -1 
+
+
+output_big_clu_out_bound 0
+# 输出团簇>size[0]的出界
+big_clu_definition 100
+
+# Be_trap_mutation参数为 trap_mutation判断公式中的Be的系数
+#公式中t_m   {size[3] + x * size[2] >= 5 * pow(size[0] + 1, 0.86)}
+Be_trap_mutation 1
+
+He_insert 1
+He_flux 4e25
+
+Be_insert -1
+Be_flux 3e20
+
+
+# ~1则tm只向表面发射SIA，~0随机发射。
+TM_sia2surface 0
+
+
+# [0] = perodic boundary, [1] = Z free && XY perodic, [3] = XYZ free
+boundary_condition 1
+
+box_grid 10
+
+#是否在output_react.txt中输出结合、湮灭和发射反应，1输出，-1不输出
+#模拟机时超过1小时，建议-1
+output_cascade_injection  -1
+output_annihilation_reaction  1
+output_GB_absorption -1
+output_disloaction_absorption -1
+
+
+#time interval between two cascades, (unit second)
+# -1 means no cascade insertion
+
+
+#randomly translate the inserted cascade (0~false, 1~true)
+rand_translate_cascade 1
+rand_rotate_cascade 1
+
+
+#高于该能量的事件不会发生（设太低可能报错）
+max_energy 10
+
+
+##########################一般不用改的参数##############################
+
+
+#如果event_list为空，则每一步时间累加default_dt，步数累加1
+default_dt 1e-12
+
+
+##########################绝对不要改的参数##############################
+# kb = boltzman constant (eV/K)
+kb 8.6173303E-05
+# a0 = lattice parameter, now is W(tungsten) 3.16524!e - 9
+a0 3.173
+# hp = planck constant (eV*s)
+hp 4.135667662E-15
+
+
+##########################未经测试的功能，不要改##########################
+mig_degeneration 1
+
+
+# 暂时关闭的功能
+grain_radius -1
+default_dt 1
+ss_grain_radius -1
+dislocation_density -1
+dislocation_radius -1
+
+
+# seed 设置为0， 系统会自动以当前时间作为种子
+seed 0
+
+
+##########################暂未实现的功能################################
+#sink strength，周期性边界条件下才可开启该功能，-1表示不开启
+meet_carbon 1e-8
+meet_Re 1e-7
+
