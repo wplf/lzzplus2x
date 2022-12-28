@@ -11,8 +11,6 @@
 #include"random.h"
 #include"reaction.h"
 
-
-
 int main()
 {
 	//初始化输出文件
@@ -135,8 +133,6 @@ int main()
 	delete database;
 
 	std::cout << "work is done" << std::endl;
-	system("pause");
-
 	return 0;
 }
 

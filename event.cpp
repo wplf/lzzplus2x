@@ -133,7 +133,6 @@ void carry_out_event(int _which_event, int _obj_pos, std::vector<Object*>& _obj_
 	}
 }
 
-
 void carry_out_mig(int _obj_pos, std::vector<Object*>& _obj_ptr_list, bool& _flag_refresh_event_list, const Database& _database, const Setting& _setting)
 {
 	// mig内部已经实现不同种类的团簇mig
@@ -553,7 +552,6 @@ std::map < double, double> one_hundred_eVBe = {
 };
 std::map < double, double> five_eVHe;
 std::map < double, double> one_hundred_eVHe;
-
 
 void insert_obj(int _insert_element, std::vector<Object*>& _obj_ptr_list, const Database& _database, const Setting& _setting) {
 	int type = -1;  int dir = 0;
