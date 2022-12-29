@@ -146,7 +146,7 @@ void Setting::read_setting(std::string _filename)
 void Setting::read_cascade_possibility()
 {
 	std::string str;
-	std::ifstream inFile("input_cascade_possibility.txt");
+	std::ifstream inFile("input_files//input_cascade_possibility.txt");
 	if (inFile.is_open()) {
 		while (std::getline(inFile, str))
 		{

@@ -24,6 +24,7 @@ double build_event_list(std::vector<Object*>& _obj_ptr_list, std::vector<Event>&
 			}
 		}
 	}
+	
 	// 外部cascade与内部函数引入obj
 	if (_setting.rate_cascade > 0) {
 		Event temp_event;
@@ -311,8 +312,6 @@ void carry_out_mig(int _obj_pos, std::vector<Object*>& _obj_ptr_list, bool& _fla
 			}
 		}
 	}
-
-
 }
 
 // emit 之后原团簇会减小，所以不用判断原团簇的反应

@@ -18,9 +18,9 @@ output_per_n_step 0
 cascade_interval -1
 
 #1~time	2~loop
-stop_criteria 1
+stop_criteria 2
 max_step 10000
-max_time 1
+max_time 3
 
 
 output_combine_reaction 1

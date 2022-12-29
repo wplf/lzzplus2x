@@ -1,0 +1,1003 @@
+step	0	time	0	temperature	933	cpu_time	0.27
+step	20	time	1.06931e-008	temperature	933	cpu_time	0.273
+1
+step	40	time	1.07001e-008	temperature	933	cpu_time	0.281
+1
+step	60	time	1.0706e-008	temperature	933	cpu_time	0.286
+1
+step	80	time	1.07126e-008	temperature	933	cpu_time	0.291
+1
+step	100	time	1.07212e-008	temperature	933	cpu_time	0.299
+1
+step	120	time	1.07313e-008	temperature	933	cpu_time	0.307
+1
+step	140	time	1.07375e-008	temperature	933	cpu_time	0.315
+1
+step	160	time	1.07441e-008	temperature	933	cpu_time	0.323
+1
+step	180	time	1.07491e-008	temperature	933	cpu_time	0.331
+1
+step	200	time	1.07568e-008	temperature	933	cpu_time	0.336
+1
+step	220	time	1.07645e-008	temperature	933	cpu_time	0.347
+1
+step	240	time	1.07705e-008	temperature	933	cpu_time	0.352
+1
+step	260	time	1.07768e-008	temperature	933	cpu_time	0.362
+1
+step	280	time	1.07865e-008	temperature	933	cpu_time	0.366
+1
+step	300	time	1.07913e-008	temperature	933	cpu_time	0.375
+1
+step	320	time	1.07999e-008	temperature	933	cpu_time	0.382
+1
+step	340	time	1.08069e-008	temperature	933	cpu_time	0.391
+1
+step	360	time	1.08133e-008	temperature	933	cpu_time	0.398
+1
+step	380	time	1.08207e-008	temperature	933	cpu_time	0.408
+1
+step	400	time	1.0827e-008	temperature	933	cpu_time	0.414
+1
+step	420	time	1.08308e-008	temperature	933	cpu_time	0.423
+1
+step	440	time	1.08369e-008	temperature	933	cpu_time	0.428
+1
+step	460	time	1.0843e-008	temperature	933	cpu_time	0.436
+1
+step	480	time	1.08497e-008	temperature	933	cpu_time	0.444
+1
+step	500	time	1.08557e-008	temperature	933	cpu_time	0.451
+1
+step	520	time	1.08637e-008	temperature	933	cpu_time	0.46
+1
+step	540	time	1.08715e-008	temperature	933	cpu_time	0.464
+1
+step	560	time	1.08794e-008	temperature	933	cpu_time	0.469
+1
+step	580	time	1.0887e-008	temperature	933	cpu_time	0.476
+1
+step	600	time	1.0892e-008	temperature	933	cpu_time	0.484
+1
+step	620	time	1.08979e-008	temperature	933	cpu_time	0.491
+1
+step	640	time	1.09053e-008	temperature	933	cpu_time	0.498
+1
+step	660	time	1.09132e-008	temperature	933	cpu_time	0.504
+1
+step	680	time	1.09207e-008	temperature	933	cpu_time	0.511
+1
+step	700	time	1.0927e-008	temperature	933	cpu_time	0.517
+1
+step	720	time	1.09344e-008	temperature	933	cpu_time	0.526
+1
+step	740	time	1.09405e-008	temperature	933	cpu_time	0.532
+1
+step	760	time	1.09469e-008	temperature	933	cpu_time	0.54
+1
+step	780	time	1.09528e-008	temperature	933	cpu_time	0.546
+1
+step	800	time	1.09608e-008	temperature	933	cpu_time	0.554
+1
+step	820	time	1.09686e-008	temperature	933	cpu_time	0.56
+1
+step	840	time	1.09759e-008	temperature	933	cpu_time	0.568
+1
+step	860	time	1.09831e-008	temperature	933	cpu_time	0.575
+1
+step	880	time	1.09933e-008	temperature	933	cpu_time	0.581
+1
+step	900	time	1.09981e-008	temperature	933	cpu_time	0.589
+1
+step	920	time	1.1004e-008	temperature	933	cpu_time	0.597
+1
+step	940	time	1.10097e-008	temperature	933	cpu_time	0.604
+1
+step	960	time	1.1017e-008	temperature	933	cpu_time	0.614
+1
+step	980	time	1.1025e-008	temperature	933	cpu_time	0.62
+1
+step	1000	time	1.10325e-008	temperature	933	cpu_time	0.628
+1
+step	1020	time	1.10394e-008	temperature	933	cpu_time	0.636
+1
+step	1040	time	1.10448e-008	temperature	933	cpu_time	0.641
+1
+step	1060	time	1.10535e-008	temperature	933	cpu_time	0.645
+1
+step	1080	time	1.10593e-008	temperature	933	cpu_time	0.652
+1
+step	1100	time	1.10694e-008	temperature	933	cpu_time	0.659
+1
+step	1120	time	1.10747e-008	temperature	933	cpu_time	0.665
+1
+step	1140	time	1.10838e-008	temperature	933	cpu_time	0.673
+1
+step	1160	time	1.10925e-008	temperature	933	cpu_time	0.68
+1
+step	1180	time	1.10994e-008	temperature	933	cpu_time	0.687
+1
+step	1200	time	1.11086e-008	temperature	933	cpu_time	0.695
+1
+step	1220	time	1.11165e-008	temperature	933	cpu_time	0.703
+1
+step	1240	time	1.11264e-008	temperature	933	cpu_time	0.712
+1
+step	1260	time	1.1131e-008	temperature	933	cpu_time	0.718
+1
+step	1280	time	1.11375e-008	temperature	933	cpu_time	0.727
+1
+step	1300	time	1.11469e-008	temperature	933	cpu_time	0.733
+1
+step	1320	time	1.11516e-008	temperature	933	cpu_time	0.74
+1
+step	1340	time	1.11572e-008	temperature	933	cpu_time	0.744
+1
+step	1360	time	1.11636e-008	temperature	933	cpu_time	0.752
+1
+step	1380	time	1.11712e-008	temperature	933	cpu_time	0.758
+1
+step	1400	time	1.11785e-008	temperature	933	cpu_time	0.767
+1
+step	1420	time	1.1186e-008	temperature	933	cpu_time	0.773
+1
+step	1440	time	1.11922e-008	temperature	933	cpu_time	0.781
+1
+step	1460	time	1.11999e-008	temperature	933	cpu_time	0.787
+1
+step	1480	time	1.12059e-008	temperature	933	cpu_time	0.796
+1
+step	1500	time	1.12125e-008	temperature	933	cpu_time	0.802
+1
+step	1520	time	1.12201e-008	temperature	933	cpu_time	0.811
+1
+step	1540	time	1.12276e-008	temperature	933	cpu_time	0.817
+1
+step	1560	time	1.12361e-008	temperature	933	cpu_time	0.825
+1
+step	1580	time	1.12433e-008	temperature	933	cpu_time	0.833
+1
+step	1600	time	1.1251e-008	temperature	933	cpu_time	0.839
+1
+step	1620	time	1.12594e-008	temperature	933	cpu_time	0.848
+1
+step	1640	time	1.12654e-008	temperature	933	cpu_time	0.853
+1
+step	1660	time	1.12733e-008	temperature	933	cpu_time	0.862
+1
+step	1680	time	1.12811e-008	temperature	933	cpu_time	0.866
+1
+step	1700	time	1.12871e-008	temperature	933	cpu_time	0.876
+1
+step	1720	time	1.12928e-008	temperature	933	cpu_time	0.882
+1
+step	1740	time	1.13013e-008	temperature	933	cpu_time	0.892
+1
+step	1760	time	1.131e-008	temperature	933	cpu_time	0.897
+1
+step	1780	time	1.13177e-008	temperature	933	cpu_time	0.907
+1
+step	1800	time	1.13244e-008	temperature	933	cpu_time	0.914
+1
+step	1820	time	1.13323e-008	temperature	933	cpu_time	0.924
+1
+step	1840	time	1.13396e-008	temperature	933	cpu_time	0.929
+1
+step	1860	time	1.13475e-008	temperature	933	cpu_time	0.937
+1
+step	1880	time	1.13527e-008	temperature	933	cpu_time	0.943
+1
+step	1900	time	1.13626e-008	temperature	933	cpu_time	0.951
+1
+step	1920	time	1.13668e-008	temperature	933	cpu_time	0.959
+1
+step	1940	time	1.13759e-008	temperature	933	cpu_time	0.964
+1
+step	1960	time	1.13803e-008	temperature	933	cpu_time	0.974
+1
+step	1980	time	1.13875e-008	temperature	933	cpu_time	0.981
+1
+step	2000	time	1.13949e-008	temperature	933	cpu_time	0.991
+1
+step	2020	time	1.14031e-008	temperature	933	cpu_time	0.999
+1
+step	2040	time	1.14077e-008	temperature	933	cpu_time	1.006
+1
+step	2060	time	1.14164e-008	temperature	933	cpu_time	1.013
+1
+step	2080	time	1.14229e-008	temperature	933	cpu_time	1.02
+1
+step	2100	time	1.14303e-008	temperature	933	cpu_time	1.029
+1
+step	2120	time	1.14388e-008	temperature	933	cpu_time	1.036
+1
+step	2140	time	1.14459e-008	temperature	933	cpu_time	1.046
+1
+step	2160	time	1.14516e-008	temperature	933	cpu_time	1.052
+1
+step	2180	time	1.14611e-008	temperature	933	cpu_time	1.06
+1
+step	2200	time	1.14674e-008	temperature	933	cpu_time	1.066
+1
+step	2220	time	1.14738e-008	temperature	933	cpu_time	1.075
+1
+step	2240	time	1.14817e-008	temperature	933	cpu_time	1.08
+1
+step	2260	time	1.14882e-008	temperature	933	cpu_time	1.089
+1
+step	2280	time	1.14966e-008	temperature	933	cpu_time	1.094
+1
+step	2300	time	1.15022e-008	temperature	933	cpu_time	1.101
+1
+step	2320	time	1.15096e-008	temperature	933	cpu_time	1.111
+1
+step	2340	time	1.15176e-008	temperature	933	cpu_time	1.116
+1
+step	2360	time	1.15217e-008	temperature	933	cpu_time	1.128
+1
+step	2380	time	1.15284e-008	temperature	933	cpu_time	1.134
+1
+step	2400	time	1.15383e-008	temperature	933	cpu_time	1.144
+1
+step	2420	time	1.15438e-008	temperature	933	cpu_time	1.151
+1
+step	2440	time	1.15502e-008	temperature	933	cpu_time	1.159
+1
+step	2460	time	1.15591e-008	temperature	933	cpu_time	1.167
+1
+step	2480	time	1.15676e-008	temperature	933	cpu_time	1.174
+1
+step	2500	time	1.15765e-008	temperature	933	cpu_time	1.183
+1
+step	2520	time	1.15825e-008	temperature	933	cpu_time	1.194
+1
+step	2540	time	1.15895e-008	temperature	933	cpu_time	1.198
+1
+step	2560	time	1.15987e-008	temperature	933	cpu_time	1.203
+1
+step	2580	time	1.16051e-008	temperature	933	cpu_time	1.209
+1
+step	2600	time	1.16117e-008	temperature	933	cpu_time	1.22
+1
+step	2620	time	1.16169e-008	temperature	933	cpu_time	1.229
+1
+step	2640	time	1.16231e-008	temperature	933	cpu_time	1.238
+1
+step	2660	time	1.16291e-008	temperature	933	cpu_time	1.245
+1
+step	2680	time	1.16341e-008	temperature	933	cpu_time	1.255
+1
+step	2700	time	1.16414e-008	temperature	933	cpu_time	1.265
+1
+step	2720	time	1.16506e-008	temperature	933	cpu_time	1.275
+1
+step	2740	time	1.16588e-008	temperature	933	cpu_time	1.282
+1
+step	2760	time	1.16653e-008	temperature	933	cpu_time	1.291
+1
+step	2780	time	1.16726e-008	temperature	933	cpu_time	1.297
+1
+step	2800	time	1.16828e-008	temperature	933	cpu_time	1.306
+1
+step	2820	time	1.16899e-008	temperature	933	cpu_time	1.314
+1
+step	2840	time	1.16958e-008	temperature	933	cpu_time	1.32
+1
+step	2860	time	1.17003e-008	temperature	933	cpu_time	1.331
+1
+step	2880	time	1.17089e-008	temperature	933	cpu_time	1.336
+1
+step	2900	time	1.17181e-008	temperature	933	cpu_time	1.341
+1
+step	2920	time	1.17244e-008	temperature	933	cpu_time	1.35
+1
+step	2940	time	1.17334e-008	temperature	933	cpu_time	1.359
+1
+step	2960	time	1.17402e-008	temperature	933	cpu_time	1.365
+1
+step	2980	time	1.17483e-008	temperature	933	cpu_time	1.374
+1
+step	3000	time	1.17556e-008	temperature	933	cpu_time	1.381
+1
+step	3020	time	1.17624e-008	temperature	933	cpu_time	1.392
+1
+step	3040	time	1.17695e-008	temperature	933	cpu_time	1.397
+1
+step	3060	time	1.1776e-008	temperature	933	cpu_time	1.406
+1
+step	3080	time	1.17826e-008	temperature	933	cpu_time	1.413
+1
+step	3100	time	1.17896e-008	temperature	933	cpu_time	1.423
+1
+step	3120	time	1.17952e-008	temperature	933	cpu_time	1.43
+1
+step	3140	time	1.18048e-008	temperature	933	cpu_time	1.437
+1
+step	3160	time	1.18139e-008	temperature	933	cpu_time	1.446
+1
+step	3180	time	1.18205e-008	temperature	933	cpu_time	1.453
+1
+step	3200	time	1.18272e-008	temperature	933	cpu_time	1.457
+1
+step	3220	time	1.18358e-008	temperature	933	cpu_time	1.466
+1
+step	3240	time	1.18427e-008	temperature	933	cpu_time	1.476
+1
+step	3260	time	1.18525e-008	temperature	933	cpu_time	1.483
+1
+step	3280	time	1.18596e-008	temperature	933	cpu_time	1.494
+1
+step	3300	time	1.18677e-008	temperature	933	cpu_time	1.502
+1
+step	3320	time	1.18775e-008	temperature	933	cpu_time	1.511
+1
+step	3340	time	1.18859e-008	temperature	933	cpu_time	1.519
+1
+step	3360	time	1.18924e-008	temperature	933	cpu_time	1.527
+1
+step	3380	time	1.19e-008	temperature	933	cpu_time	1.536
+1
+step	3400	time	1.19067e-008	temperature	933	cpu_time	1.543
+1
+step	3420	time	1.19163e-008	temperature	933	cpu_time	1.553
+1
+step	3440	time	1.19215e-008	temperature	933	cpu_time	1.561
+1
+step	3460	time	1.19284e-008	temperature	933	cpu_time	1.57
+1
+step	3480	time	1.19364e-008	temperature	933	cpu_time	1.578
+1
+step	3500	time	1.19461e-008	temperature	933	cpu_time	1.582
+1
+step	3520	time	1.19536e-008	temperature	933	cpu_time	1.593
+1
+step	3540	time	1.19607e-008	temperature	933	cpu_time	1.597
+1
+step	3560	time	1.19686e-008	temperature	933	cpu_time	1.602
+1
+step	3580	time	1.19759e-008	temperature	933	cpu_time	1.61
+1
+step	3600	time	1.1988e-008	temperature	933	cpu_time	1.614
+1
+step	3620	time	1.19956e-008	temperature	933	cpu_time	1.625
+1
+step	3640	time	1.20021e-008	temperature	933	cpu_time	1.631
+1
+step	3660	time	1.2007e-008	temperature	933	cpu_time	1.635
+1
+step	3680	time	1.20118e-008	temperature	933	cpu_time	1.643
+1
+step	3700	time	1.20183e-008	temperature	933	cpu_time	1.647
+1
+step	3720	time	1.20265e-008	temperature	933	cpu_time	1.659
+1
+step	3740	time	1.20339e-008	temperature	933	cpu_time	1.665
+1
+step	3760	time	1.20407e-008	temperature	933	cpu_time	1.669
+1
+step	3780	time	1.20482e-008	temperature	933	cpu_time	1.677
+1
+step	3800	time	1.20564e-008	temperature	933	cpu_time	1.685
+1
+step	3820	time	1.2065e-008	temperature	933	cpu_time	1.695
+1
+step	3840	time	1.20717e-008	temperature	933	cpu_time	1.702
+1
+step	3860	time	1.20795e-008	temperature	933	cpu_time	1.71
+1
+step	3880	time	1.20872e-008	temperature	933	cpu_time	1.719
+1
+step	3900	time	1.20972e-008	temperature	933	cpu_time	1.727
+1
+step	3920	time	1.21054e-008	temperature	933	cpu_time	1.737
+1
+step	3940	time	1.21105e-008	temperature	933	cpu_time	1.745
+1
+step	3960	time	1.21163e-008	temperature	933	cpu_time	1.753
+1
+step	3980	time	1.21229e-008	temperature	933	cpu_time	1.762
+1
+step	4000	time	1.21316e-008	temperature	933	cpu_time	1.768
+1
+step	4020	time	1.2139e-008	temperature	933	cpu_time	1.779
+1
+step	4040	time	1.21466e-008	temperature	933	cpu_time	1.784
+1
+step	4060	time	1.21538e-008	temperature	933	cpu_time	1.789
+1
+step	4080	time	1.21633e-008	temperature	933	cpu_time	1.798
+1
+step	4100	time	1.21742e-008	temperature	933	cpu_time	1.806
+1
+step	4120	time	1.21815e-008	temperature	933	cpu_time	1.818
+1
+step	4140	time	1.21896e-008	temperature	933	cpu_time	1.824
+1
+step	4160	time	1.2196e-008	temperature	933	cpu_time	1.829
+1
+step	4180	time	1.22042e-008	temperature	933	cpu_time	1.832
+1
+step	4200	time	1.22124e-008	temperature	933	cpu_time	1.838
+1
+step	4220	time	1.22192e-008	temperature	933	cpu_time	1.85
+1
+step	4240	time	1.22252e-008	temperature	933	cpu_time	1.857
+1
+step	4260	time	1.22326e-008	temperature	933	cpu_time	1.865
+1
+step	4280	time	1.22381e-008	temperature	933	cpu_time	1.874
+1
+step	4300	time	1.22446e-008	temperature	933	cpu_time	1.883
+1
+step	4320	time	1.22507e-008	temperature	933	cpu_time	1.892
+1
+step	4340	time	1.22581e-008	temperature	933	cpu_time	1.9
+1
+step	4360	time	1.22641e-008	temperature	933	cpu_time	1.909
+1
+step	4380	time	1.22688e-008	temperature	933	cpu_time	1.916
+1
+step	4400	time	1.2278e-008	temperature	933	cpu_time	1.924
+1
+step	4420	time	1.22839e-008	temperature	933	cpu_time	1.934
+1
+step	4440	time	1.22926e-008	temperature	933	cpu_time	1.939
+1
+step	4460	time	1.22992e-008	temperature	933	cpu_time	1.943
+1
+step	4480	time	1.23037e-008	temperature	933	cpu_time	1.95
+1
+step	4500	time	1.23095e-008	temperature	933	cpu_time	1.954
+1
+step	4520	time	1.23167e-008	temperature	933	cpu_time	1.963
+1
+step	4540	time	1.23225e-008	temperature	933	cpu_time	1.969
+1
+step	4560	time	1.23289e-008	temperature	933	cpu_time	1.985
+1
+step	4580	time	1.2335e-008	temperature	933	cpu_time	1.994
+1
+step	4600	time	1.23444e-008	temperature	933	cpu_time	2.007
+1
+step	4620	time	1.23511e-008	temperature	933	cpu_time	2.018
+1
+step	4640	time	1.2358e-008	temperature	933	cpu_time	2.023
+1
+step	4660	time	1.2364e-008	temperature	933	cpu_time	2.041
+1
+step	4680	time	1.23709e-008	temperature	933	cpu_time	2.049
+1
+step	4700	time	1.23791e-008	temperature	933	cpu_time	2.055
+1
+step	4720	time	1.23874e-008	temperature	933	cpu_time	2.068
+1
+step	4740	time	1.23949e-008	temperature	933	cpu_time	2.08
+1
+step	4760	time	1.2403e-008	temperature	933	cpu_time	2.091
+1
+step	4780	time	1.24087e-008	temperature	933	cpu_time	2.101
+1
+step	4800	time	1.2416e-008	temperature	933	cpu_time	2.118
+1
+step	4820	time	1.24228e-008	temperature	933	cpu_time	2.133
+1
+step	4840	time	1.24291e-008	temperature	933	cpu_time	2.137
+1
+step	4860	time	1.24386e-008	temperature	933	cpu_time	2.153
+1
+step	4880	time	1.24475e-008	temperature	933	cpu_time	2.161
+1
+step	4900	time	1.2454e-008	temperature	933	cpu_time	2.172
+1
+step	4920	time	1.24606e-008	temperature	933	cpu_time	2.18
+1
+step	4940	time	1.24678e-008	temperature	933	cpu_time	2.191
+1
+step	4960	time	1.24738e-008	temperature	933	cpu_time	2.201
+1
+step	4980	time	1.2481e-008	temperature	933	cpu_time	2.209
+1
+step	5000	time	1.24898e-008	temperature	933	cpu_time	2.214
+1
+step	5020	time	1.24994e-008	temperature	933	cpu_time	2.225
+1
+step	5040	time	1.25057e-008	temperature	933	cpu_time	2.234
+1
+step	5060	time	1.25129e-008	temperature	933	cpu_time	2.244
+1
+step	5080	time	1.25207e-008	temperature	933	cpu_time	2.255
+1
+step	5100	time	1.253e-008	temperature	933	cpu_time	2.265
+1
+step	5120	time	1.25405e-008	temperature	933	cpu_time	2.277
+1
+step	5140	time	1.25481e-008	temperature	933	cpu_time	2.283
+1
+step	5160	time	1.25546e-008	temperature	933	cpu_time	2.292
+1
+step	5180	time	1.25636e-008	temperature	933	cpu_time	2.302
+1
+step	5200	time	1.25699e-008	temperature	933	cpu_time	2.315
+1
+step	5220	time	1.25775e-008	temperature	933	cpu_time	2.333
+1
+step	5240	time	1.2591e-008	temperature	933	cpu_time	2.34
+1
+step	5260	time	1.25984e-008	temperature	933	cpu_time	2.346
+1
+step	5280	time	1.26058e-008	temperature	933	cpu_time	2.358
+1
+step	5300	time	1.26129e-008	temperature	933	cpu_time	2.365
+1
+step	5320	time	1.26192e-008	temperature	933	cpu_time	2.371
+1
+step	5340	time	1.26281e-008	temperature	933	cpu_time	2.378
+1
+step	5360	time	1.2639e-008	temperature	933	cpu_time	2.382
+1
+step	5380	time	1.26473e-008	temperature	933	cpu_time	2.386
+1
+step	5400	time	1.26559e-008	temperature	933	cpu_time	2.399
+1
+step	5420	time	1.26592e-008	temperature	933	cpu_time	2.41
+1
+step	5440	time	1.26675e-008	temperature	933	cpu_time	2.416
+1
+step	5460	time	1.26737e-008	temperature	933	cpu_time	2.43
+1
+step	5480	time	1.26801e-008	temperature	933	cpu_time	2.433
+1
+step	5500	time	1.26863e-008	temperature	933	cpu_time	2.437
+1
+step	5520	time	1.26912e-008	temperature	933	cpu_time	2.449
+1
+step	5540	time	1.2697e-008	temperature	933	cpu_time	2.458
+1
+step	5560	time	1.27026e-008	temperature	933	cpu_time	2.465
+1
+step	5580	time	1.2709e-008	temperature	933	cpu_time	2.476
+1
+step	5600	time	1.27157e-008	temperature	933	cpu_time	2.482
+1
+step	5620	time	1.27203e-008	temperature	933	cpu_time	2.493
+1
+step	5640	time	1.27269e-008	temperature	933	cpu_time	2.5
+1
+step	5660	time	1.27371e-008	temperature	933	cpu_time	2.511
+1
+step	5680	time	1.2742e-008	temperature	933	cpu_time	2.517
+1
+step	5700	time	1.27503e-008	temperature	933	cpu_time	2.526
+1
+step	5720	time	1.27572e-008	temperature	933	cpu_time	2.536
+1
+step	5740	time	1.27649e-008	temperature	933	cpu_time	2.543
+1
+step	5760	time	1.27722e-008	temperature	933	cpu_time	2.549
+1
+step	5780	time	1.278e-008	temperature	933	cpu_time	2.56
+1
+step	5800	time	1.2787e-008	temperature	933	cpu_time	2.572
+1
+step	5820	time	1.27969e-008	temperature	933	cpu_time	2.583
+1
+step	5840	time	1.28045e-008	temperature	933	cpu_time	2.587
+1
+step	5860	time	1.28118e-008	temperature	933	cpu_time	2.595
+1
+step	5880	time	1.2819e-008	temperature	933	cpu_time	2.6
+1
+step	5900	time	1.28233e-008	temperature	933	cpu_time	2.614
+1
+step	5920	time	1.28316e-008	temperature	933	cpu_time	2.627
+1
+step	5940	time	1.28377e-008	temperature	933	cpu_time	2.634
+1
+step	5960	time	1.28461e-008	temperature	933	cpu_time	2.643
+1
+step	5980	time	1.28531e-008	temperature	933	cpu_time	2.652
+1
+step	6000	time	1.28591e-008	temperature	933	cpu_time	2.662
+1
+step	6020	time	1.28663e-008	temperature	933	cpu_time	2.672
+1
+step	6040	time	1.28737e-008	temperature	933	cpu_time	2.679
+1
+step	6060	time	1.28791e-008	temperature	933	cpu_time	2.684
+1
+step	6080	time	1.28888e-008	temperature	933	cpu_time	2.703
+1
+step	6100	time	1.28956e-008	temperature	933	cpu_time	2.714
+1
+step	6120	time	1.2902e-008	temperature	933	cpu_time	2.726
+1
+step	6140	time	1.29079e-008	temperature	933	cpu_time	2.731
+1
+step	6160	time	1.29171e-008	temperature	933	cpu_time	2.736
+1
+step	6180	time	1.29244e-008	temperature	933	cpu_time	2.742
+1
+step	6200	time	1.29313e-008	temperature	933	cpu_time	2.746
+1
+step	6220	time	1.29381e-008	temperature	933	cpu_time	2.759
+1
+step	6240	time	1.29445e-008	temperature	933	cpu_time	2.763
+1
+step	6260	time	1.29507e-008	temperature	933	cpu_time	2.774
+1
+step	6280	time	1.29572e-008	temperature	933	cpu_time	2.781
+1
+step	6300	time	1.29655e-008	temperature	933	cpu_time	2.785
+1
+step	6320	time	1.29756e-008	temperature	933	cpu_time	2.795
+1
+step	6340	time	1.29828e-008	temperature	933	cpu_time	2.808
+1
+step	6360	time	1.29883e-008	temperature	933	cpu_time	2.816
+1
+step	6380	time	1.29929e-008	temperature	933	cpu_time	2.825
+1
+step	6400	time	1.30012e-008	temperature	933	cpu_time	2.831
+1
+step	6420	time	1.30055e-008	temperature	933	cpu_time	2.842
+1
+step	6440	time	1.30152e-008	temperature	933	cpu_time	2.849
+1
+step	6460	time	1.30237e-008	temperature	933	cpu_time	2.858
+1
+step	6480	time	1.30312e-008	temperature	933	cpu_time	2.865
+1
+step	6500	time	1.30389e-008	temperature	933	cpu_time	2.874
+1
+step	6520	time	1.30486e-008	temperature	933	cpu_time	2.884
+1
+step	6540	time	1.30563e-008	temperature	933	cpu_time	2.892
+1
+step	6560	time	1.30637e-008	temperature	933	cpu_time	2.896
+1
+step	6580	time	1.30691e-008	temperature	933	cpu_time	2.905
+1
+step	6600	time	1.30747e-008	temperature	933	cpu_time	2.914
+1
+step	6620	time	1.30823e-008	temperature	933	cpu_time	2.926
+1
+step	6640	time	1.30896e-008	temperature	933	cpu_time	2.931
+1
+step	6660	time	1.30963e-008	temperature	933	cpu_time	2.943
+1
+step	6680	time	1.31069e-008	temperature	933	cpu_time	2.949
+1
+step	6700	time	1.31128e-008	temperature	933	cpu_time	2.96
+1
+step	6720	time	1.31208e-008	temperature	933	cpu_time	2.97
+1
+step	6740	time	1.31267e-008	temperature	933	cpu_time	2.979
+1
+step	6760	time	1.31327e-008	temperature	933	cpu_time	2.988
+1
+step	6780	time	1.31395e-008	temperature	933	cpu_time	2.993
+1
+step	6800	time	1.31452e-008	temperature	933	cpu_time	2.997
+1
+step	6820	time	1.31521e-008	temperature	933	cpu_time	3.01
+1
+step	6840	time	1.31607e-008	temperature	933	cpu_time	3.014
+1
+step	6860	time	1.31691e-008	temperature	933	cpu_time	3.02
+1
+step	6880	time	1.31768e-008	temperature	933	cpu_time	3.032
+1
+step	6900	time	1.31865e-008	temperature	933	cpu_time	3.044
+1
+step	6920	time	1.31936e-008	temperature	933	cpu_time	3.754
+1
+step	6940	time	1.3201e-008	temperature	933	cpu_time	3.757
+1
+step	6960	time	1.32068e-008	temperature	933	cpu_time	3.763
+1
+step	6980	time	1.32158e-008	temperature	933	cpu_time	3.77
+1
+step	7000	time	1.32241e-008	temperature	933	cpu_time	3.777
+1
+step	7020	time	1.32346e-008	temperature	933	cpu_time	3.787
+1
+step	7040	time	1.32448e-008	temperature	933	cpu_time	3.794
+1
+step	7060	time	1.32536e-008	temperature	933	cpu_time	3.798
+1
+step	7080	time	1.32627e-008	temperature	933	cpu_time	3.804
+1
+step	7100	time	1.32704e-008	temperature	933	cpu_time	3.812
+1
+step	7120	time	1.32776e-008	temperature	933	cpu_time	3.822
+1
+step	7140	time	1.32851e-008	temperature	933	cpu_time	3.83
+1
+step	7160	time	1.32913e-008	temperature	933	cpu_time	3.837
+1
+step	7180	time	1.33019e-008	temperature	933	cpu_time	3.847
+1
+step	7200	time	1.33092e-008	temperature	933	cpu_time	3.852
+1
+step	7220	time	1.33144e-008	temperature	933	cpu_time	3.858
+1
+step	7240	time	1.33191e-008	temperature	933	cpu_time	3.863
+1
+step	7260	time	1.33298e-008	temperature	933	cpu_time	3.872
+1
+step	7280	time	1.33359e-008	temperature	933	cpu_time	3.877
+1
+step	7300	time	1.33458e-008	temperature	933	cpu_time	3.883
+1
+step	7320	time	1.33538e-008	temperature	933	cpu_time	3.896
+1
+step	7340	time	1.33649e-008	temperature	933	cpu_time	3.901
+1
+step	7360	time	1.33713e-008	temperature	933	cpu_time	3.916
+1
+step	7380	time	1.3378e-008	temperature	933	cpu_time	3.925
+1
+step	7400	time	1.33843e-008	temperature	933	cpu_time	3.932
+1
+step	7420	time	1.33938e-008	temperature	933	cpu_time	3.945
+1
+step	7440	time	1.34024e-008	temperature	933	cpu_time	3.951
+1
+step	7460	time	1.341e-008	temperature	933	cpu_time	3.962
+1
+step	7480	time	1.3415e-008	temperature	933	cpu_time	3.974
+1
+step	7500	time	1.34246e-008	temperature	933	cpu_time	3.983
+1
+step	7520	time	1.34278e-008	temperature	933	cpu_time	3.996
+1
+step	7540	time	1.3434e-008	temperature	933	cpu_time	4.008
+1
+step	7560	time	1.34444e-008	temperature	933	cpu_time	4.014
+1
+step	7580	time	1.34527e-008	temperature	933	cpu_time	4.019
+1
+step	7600	time	1.34613e-008	temperature	933	cpu_time	4.025
+1
+step	7620	time	1.34686e-008	temperature	933	cpu_time	4.031
+1
+step	7640	time	1.34762e-008	temperature	933	cpu_time	4.042
+1
+step	7660	time	1.34839e-008	temperature	933	cpu_time	4.051
+1
+step	7680	time	1.34908e-008	temperature	933	cpu_time	4.065
+1
+step	7700	time	1.34979e-008	temperature	933	cpu_time	4.074
+1
+step	7720	time	1.35025e-008	temperature	933	cpu_time	4.084
+1
+step	7740	time	1.35089e-008	temperature	933	cpu_time	4.09
+1
+step	7760	time	1.35143e-008	temperature	933	cpu_time	4.095
+1
+step	7780	time	1.35196e-008	temperature	933	cpu_time	4.099
+1
+step	7800	time	1.35292e-008	temperature	933	cpu_time	4.11
+1
+step	7820	time	1.35382e-008	temperature	933	cpu_time	4.119
+1
+step	7840	time	1.35442e-008	temperature	933	cpu_time	4.129
+1
+step	7860	time	1.35545e-008	temperature	933	cpu_time	4.139
+1
+step	7880	time	1.3562e-008	temperature	933	cpu_time	4.146
+1
+step	7900	time	1.35699e-008	temperature	933	cpu_time	4.158
+1
+step	7920	time	1.35782e-008	temperature	933	cpu_time	4.17
+1
+step	7940	time	1.3586e-008	temperature	933	cpu_time	4.179
+1
+step	7960	time	1.35927e-008	temperature	933	cpu_time	4.189
+1
+step	7980	time	1.35987e-008	temperature	933	cpu_time	4.198
+1
+step	8000	time	1.36065e-008	temperature	933	cpu_time	4.207
+1
+step	8020	time	1.36167e-008	temperature	933	cpu_time	4.217
+1
+step	8040	time	1.36241e-008	temperature	933	cpu_time	4.227
+1
+step	8060	time	1.36318e-008	temperature	933	cpu_time	4.236
+1
+step	8080	time	1.3638e-008	temperature	933	cpu_time	4.244
+1
+step	8100	time	1.3645e-008	temperature	933	cpu_time	4.248
+1
+step	8120	time	1.36515e-008	temperature	933	cpu_time	4.262
+1
+step	8140	time	1.36569e-008	temperature	933	cpu_time	4.277
+1
+step	8160	time	1.36678e-008	temperature	933	cpu_time	4.287
+1
+step	8180	time	1.36769e-008	temperature	933	cpu_time	4.298
+1
+step	8200	time	1.3687e-008	temperature	933	cpu_time	4.308
+1
+step	8220	time	1.36913e-008	temperature	933	cpu_time	4.319
+1
+step	8240	time	1.36973e-008	temperature	933	cpu_time	4.328
+1
+step	8260	time	1.37042e-008	temperature	933	cpu_time	4.337
+1
+step	8280	time	1.3711e-008	temperature	933	cpu_time	4.345
+1
+step	8300	time	1.37211e-008	temperature	933	cpu_time	4.354
+1
+step	8320	time	1.3728e-008	temperature	933	cpu_time	4.368
+1
+step	8340	time	1.37323e-008	temperature	933	cpu_time	4.374
+1
+step	8360	time	1.37394e-008	temperature	933	cpu_time	4.385
+1
+step	8380	time	1.37484e-008	temperature	933	cpu_time	4.392
+1
+step	8400	time	1.37586e-008	temperature	933	cpu_time	4.4
+1
+step	8420	time	1.3766e-008	temperature	933	cpu_time	4.413
+1
+step	8440	time	1.37752e-008	temperature	933	cpu_time	4.421
+1
+step	8460	time	1.37806e-008	temperature	933	cpu_time	4.432
+1
+step	8480	time	1.37875e-008	temperature	933	cpu_time	4.436
+1
+step	8500	time	1.37928e-008	temperature	933	cpu_time	4.447
+1
+step	8520	time	1.37984e-008	temperature	933	cpu_time	4.465
+1
+step	8540	time	1.38045e-008	temperature	933	cpu_time	4.469
+1
+step	8560	time	1.38167e-008	temperature	933	cpu_time	4.477
+1
+step	8580	time	1.38241e-008	temperature	933	cpu_time	4.484
+1
+step	8600	time	1.38297e-008	temperature	933	cpu_time	4.491
+1
+step	8620	time	1.38374e-008	temperature	933	cpu_time	4.496
+1
+step	8640	time	1.38438e-008	temperature	933	cpu_time	4.503
+1
+step	8660	time	1.38495e-008	temperature	933	cpu_time	4.511
+1
+step	8680	time	1.38575e-008	temperature	933	cpu_time	4.515
+1
+step	8700	time	1.38655e-008	temperature	933	cpu_time	4.527
+1
+step	8720	time	1.38713e-008	temperature	933	cpu_time	4.536
+1
+step	8740	time	1.38774e-008	temperature	933	cpu_time	4.547
+1
+step	8760	time	1.38847e-008	temperature	933	cpu_time	4.558
+1
+step	8780	time	1.38898e-008	temperature	933	cpu_time	4.564
+1
+step	8800	time	1.38956e-008	temperature	933	cpu_time	4.575
+1
+step	8820	time	1.39009e-008	temperature	933	cpu_time	4.584
+1
+step	8840	time	1.39094e-008	temperature	933	cpu_time	4.588
+1
+step	8860	time	1.39167e-008	temperature	933	cpu_time	4.593
+1
+step	8880	time	1.39206e-008	temperature	933	cpu_time	4.597
+1
+step	8900	time	1.39258e-008	temperature	933	cpu_time	4.607
+1
+step	8920	time	1.3933e-008	temperature	933	cpu_time	4.619
+1
+step	8940	time	1.39386e-008	temperature	933	cpu_time	4.625
+1
+step	8960	time	1.39476e-008	temperature	933	cpu_time	4.63
+1
+step	8980	time	1.39554e-008	temperature	933	cpu_time	4.634
+1
+step	9000	time	1.39611e-008	temperature	933	cpu_time	4.645
+1
+step	9020	time	1.39683e-008	temperature	933	cpu_time	4.659
+1
+step	9040	time	1.39755e-008	temperature	933	cpu_time	4.664
+1
+step	9060	time	1.39839e-008	temperature	933	cpu_time	4.668
+1
+step	9080	time	1.39905e-008	temperature	933	cpu_time	4.673
+1
+step	9100	time	1.39981e-008	temperature	933	cpu_time	4.683
+1
+step	9120	time	1.40076e-008	temperature	933	cpu_time	4.698
+1
+step	9140	time	1.40151e-008	temperature	933	cpu_time	4.702
+1
+step	9160	time	1.40196e-008	temperature	933	cpu_time	4.716
+1
+step	9180	time	1.40244e-008	temperature	933	cpu_time	4.728
+1
+step	9200	time	1.40313e-008	temperature	933	cpu_time	4.737
+1
+step	9220	time	1.40357e-008	temperature	933	cpu_time	4.748
+1
+step	9240	time	1.4042e-008	temperature	933	cpu_time	4.759
+1
+step	9260	time	1.405e-008	temperature	933	cpu_time	4.768
+1
+step	9280	time	1.40612e-008	temperature	933	cpu_time	4.777
+1
+step	9300	time	1.40697e-008	temperature	933	cpu_time	4.787
+1
+step	9320	time	1.40779e-008	temperature	933	cpu_time	4.798
+1
+step	9340	time	1.40881e-008	temperature	933	cpu_time	4.804
+1
+step	9360	time	1.40948e-008	temperature	933	cpu_time	4.81
+1
+step	9380	time	1.41025e-008	temperature	933	cpu_time	4.814
+1
+step	9400	time	1.41102e-008	temperature	933	cpu_time	4.821
+1
+step	9420	time	1.41169e-008	temperature	933	cpu_time	4.835
+1
+step	9440	time	1.41244e-008	temperature	933	cpu_time	4.845
+1
+step	9460	time	1.41296e-008	temperature	933	cpu_time	4.856
+1
+step	9480	time	1.41363e-008	temperature	933	cpu_time	4.861
+1
+step	9500	time	1.41414e-008	temperature	933	cpu_time	4.867
+1
+step	9520	time	1.41478e-008	temperature	933	cpu_time	4.878
+1
+step	9540	time	1.41537e-008	temperature	933	cpu_time	4.883
+1
+step	9560	time	1.41599e-008	temperature	933	cpu_time	4.887
+1
+step	9580	time	1.4169e-008	temperature	933	cpu_time	4.899
+1
+step	9600	time	1.4176e-008	temperature	933	cpu_time	4.908
+1
+step	9620	time	1.41813e-008	temperature	933	cpu_time	4.92
+1
+step	9640	time	1.41894e-008	temperature	933	cpu_time	4.934
+1
+step	9660	time	1.41987e-008	temperature	933	cpu_time	4.945
+1
+step	9680	time	1.42078e-008	temperature	933	cpu_time	4.951
+1
+step	9700	time	1.42181e-008	temperature	933	cpu_time	4.963
+1
+step	9720	time	1.42264e-008	temperature	933	cpu_time	4.971
+1
+step	9740	time	1.42327e-008	temperature	933	cpu_time	4.982
+1
+step	9760	time	1.42376e-008	temperature	933	cpu_time	4.986
+1
+step	9780	time	1.42437e-008	temperature	933	cpu_time	4.994
+1
+step	9800	time	1.42515e-008	temperature	933	cpu_time	5.002
+1
+step	9820	time	1.42591e-008	temperature	933	cpu_time	5.02
+1
+step	9840	time	1.42681e-008	temperature	933	cpu_time	5.026
+1
+step	9860	time	1.42747e-008	temperature	933	cpu_time	5.032
+1
+step	9880	time	1.42813e-008	temperature	933	cpu_time	5.041
+1
+step	9900	time	1.42878e-008	temperature	933	cpu_time	5.05
+1
+step	9920	time	1.42954e-008	temperature	933	cpu_time	5.061
+1
+step	9940	time	1.43062e-008	temperature	933	cpu_time	5.074
+1
+step	9960	time	1.4314e-008	temperature	933	cpu_time	5.081
+1
+step	9980	time	1.43199e-008	temperature	933	cpu_time	5.086
+1
+step	10000	time	1.43304e-008	temperature	933	cpu_time	5.1
+1
+step	10000	time	1.43304e-008	temperature	933	cpu_time	5.109
+1

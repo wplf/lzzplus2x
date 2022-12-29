@@ -207,7 +207,6 @@ void carry_out_reaction(std::vector<Object*>& _obj_ptr_list, int& _pos1, const i
 			output_react_2_1(_obj1, _obj2, **(_obj_ptr_list.end() - 1), _set);
 		}
 	}
-	
 	//œ»…±µÙObject£¨ Õ∑≈ƒ⁄¥Ê
 	delete _obj_ptr_list.at(_pos1);
 	delete _obj_ptr_list.at(_pos2);

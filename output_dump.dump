@@ -1,9 +1,0 @@
-ITEM: TIMESTEP
-	0
-ITEM: NUMBER OF ATOMS
-	0
-ITEM: BOX BOUNDS
-	0	98
-	0	102
-	0	315
-ITEM: ATOMS id type x y z V SIA fia1 fia2 radius time

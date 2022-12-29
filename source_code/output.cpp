@@ -17,7 +17,8 @@ void initialize_react_file()
 {
 	std::ostringstream oss;
 	std::ofstream fout;
-	fout.open("output_react.txt");
+	std::string output_react = std::string(".\\result\\") + "output_react.txt";
+	// fout.open(output_react);
 	fout << "#step\ttime\tcpu_time\t" << "id\ttype\tsize[0]\tsize[1]\tsize[2]\tsize[3]\t" 
 		<< "id\ttype\tsize[0]\tsize[1]\tsize[2]\tsize[3]\t" 
 		<< "react\t"
@@ -239,14 +240,15 @@ void output_cascade(const std::vector<Object*>& _obj_ptr_list, const Setting& _s
 //第三个参数为true，对应'w'模式；第三个参数为false，对应'a'模式
 void write_content(std::string _filename, std::ostringstream& _oss, bool _initialize)
 {
+	
 	std::ofstream out_file;
 	// 覆盖模式写入，第一次调用时使用
 	if (_initialize) {
-		out_file.open(_filename);
+		out_file.open(".\\result\\" + _filename);
 	}
 	// 追加模式写入
 	else {
-		out_file.open(_filename, std::ios::out | std::ios::app);
+		out_file.open(".\\result\\" + _filename, std::ios::out | std::ios::app);
 	}
 	out_file << _oss.str();
 	out_file.close();

@@ -14,7 +14,9 @@
 #include"setting.h"
 #include"random.h"
 
+
 #define PI 3.1415926
+
 // 创造一个obj的关键输入参数为  key_information 和 position_vector
 
 

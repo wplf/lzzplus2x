@@ -11,7 +11,6 @@
 #include<cmath>
 #include<array>
 #include<vector>
-
 #include"random.h"
 /*
 ¹¦ÄÜ£º
