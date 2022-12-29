@@ -43,5 +43,7 @@ bool check_boundary(double _x, double _y, double _z, const Setting& _set);
 //计算新object的位置,目前用total_size 加权平均
 void generate_new_pos(Object& _obj1, Object& _obj2, std::array<double, 3>& _new_pos);
 
+// 检查bubble是否距离表面过近，如果很近，立即破裂
+bool check_bubble_rupture(Object* _obj, const Setting& _set);
 
 #endif // !REACTION_H_

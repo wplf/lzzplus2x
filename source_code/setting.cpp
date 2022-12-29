@@ -20,6 +20,9 @@ Setting::Setting(std::string filename)
 
 	Be_trap_mutation = setting_map["Be_trap_mutation"];
 	TM_sia2surface = (int)setting_map["TM_sia2surface"];
+	He_bubble_surface_rupture = (int)setting_map["He_bubble_surface_rupture"];
+	rupture_d0 = setting_map["rupture_d0"];
+	rupture_k = setting_map["rupture_k"]; 
 
 	He_insert = setting_map["He_insert"];
 	He_flux = setting_map["He_flux"];
@@ -52,7 +55,7 @@ Setting::Setting(std::string filename)
 	total_output = int(setting_map["total_output"]);
 	output_per_n_step = int(setting_map["output_per_n_step"]);
 	n_output = 1;
-
+	
 
 	cascade_interval = setting_map["cascade_interval"];
 	rand_translate_cascade = (int)setting_map["rand_translate_cascade"];

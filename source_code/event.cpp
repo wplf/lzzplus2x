@@ -324,8 +324,7 @@ void carry_out_emit(int _emit_element, std::vector<Object*>& _obj_ptr_list, Obje
 	int o1type = -1, o2type = -1, o1dir = 0, o2dir = 0;
 	double o1x = _obj.pos[0], o1y = _obj.pos[1], o1z = _obj.pos[2];
 	double o2x = 0, o2y = 0, o2z = 0;
-
-
+	
 
 	// 0~V 1~SIA 2Be 3He
 	if (_emit_element == 0)  {

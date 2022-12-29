@@ -46,7 +46,7 @@ int main()
 
 
 	//Ö÷Ñ­»·
-	std::cout << "start main loop\n";
+	std::cout << "\nstart main loop\n";
 	bool flag_refresh_event_list = true;
 	double rate_sum = 0; 
 	std::vector<Event> event_list;

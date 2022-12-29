@@ -23,11 +23,11 @@ bool Object::refresh_obj(const Database& _database, const Setting& _setting){
 			return false;
 		}
 	}
-	
 	if (type == 5 || type == 11 || type == 12 || type == 15) 
 		std::cerr << "构造或刷新obj时 SIA 与 V  出现在同一个团簇\n";
 	
-	// 检查含有sia的团簇的方向，如果没有dir==0再给dir赋值。
+	
+	// 检查含有sia的团簇的方向，如果没有dir, 即dir==0 or dir == 1 再给dir赋值。
 	if (type == 2  && ( dir == 0 || dir == -1) ) {
 		dir = (int)floor(uni() * 4) + 1;
 	}

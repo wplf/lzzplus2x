@@ -53,7 +53,9 @@ public:
 	// trap_mutation
 	double Be_trap_mutation;
 	int TM_sia2surface;
-
+	int He_bubble_surface_rupture;
+	double rupture_d0;
+	double rupture_k;
 
 	//最大步数，最大时间，终止判据
 	unsigned long long max_step;

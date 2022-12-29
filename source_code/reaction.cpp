@@ -201,13 +201,20 @@ void carry_out_reaction(std::vector<Object*>& _obj_ptr_list, int& _pos1, const i
 	//如果不是完全湮灭，则为结合
 	else {
 		create_object(_obj1, _obj2, _obj_ptr_list, _database, _set); // 同原版程序的区别是在obj创建过程中刷新出type
-		     // 同原版程序的区别是在obj创建过程中刷新出type
-		if (_set.output_combine_reaction > 0)
-		{ // 两个团簇变成一个团簇2-1， 需要传入刚生成的团簇。
+		if (_set.output_combine_reaction > 0){// 两个团簇变成一个团簇2-1， 需要传入刚生成的团簇。
 			output_react_2_1(_obj1, _obj2, **(_obj_ptr_list.end() - 1), _set);
 		}
+
+		Object* last = _obj_ptr_list.back();
+		if( _set.He_bubble_surface_rupture &&  check_bubble_rupture(last, _set)){
+			_obj_ptr_list.pop_back();
+			Object* ptr_new_obj = new Object(0, last->pos[0], last->pos[1], last->pos[2],
+					 last->size[0], last->size[1], 0, 0, 0, _database, _set);
+			_obj_ptr_list.push_back(ptr_new_obj);
+			std::cout << "Time:" << _set.time <<  "\trupture happens and " << last->size[0] <<last->size[1] << last->size[2] << last->size[3]<< "He was released from surface" << std::endl;
+			delete last;
+		}
 	}
-	//先杀掉Object，释放内存
 	delete _obj_ptr_list.at(_pos1);
 	delete _obj_ptr_list.at(_pos2);
 	//再erase vector中相应位置的指针，先删后面的元素，再删前面的元素
@@ -221,7 +228,6 @@ void carry_out_reaction(std::vector<Object*>& _obj_ptr_list, int& _pos1, const i
 		//如果pos2在pos1前面，则删除了两个object后，下一个待循环的object的索引是pos1-1
 		_pos1--;
 	}
-
 }
 
 // 生成两个obj合并成的新obj, 将新obj的指针压入vector中， type通过刷新生成
@@ -231,7 +237,7 @@ void create_object(Object& _obj1, Object& _obj2, std::vector<Object*>& _obj_ptr_
 	generate_new_pos(_obj1, _obj2, new_pos);
 
 	if (!check_boundary(new_pos[0], new_pos[1], new_pos[2], _set)) {
-		std::cout << "发生合并并出界" << new_pos[0] << ' ' << new_pos[1] << ' ' << new_pos[2] << '\n';
+		std::cout << "发生合并并出界, 当前操作为跳过该反应" << new_pos[0] << ' ' << new_pos[1] << ' ' << new_pos[2] << '\n';
 		return;
 	}
 
@@ -311,7 +317,7 @@ void create_object(Object& _obj1, Object& _obj2, std::vector<Object*>& _obj_ptr_
 //	}
 //}
 
-// true~界内， false~界外
+// 为了判断合并之后的团簇是否出界 true~界内， false~界外
 bool check_boundary(double _x, double _y, double _z, const Setting& _set) {
 	if (_set.boundary_condition == 1) {
 		return _z < _set.box_max[2] && _z >= _set.box_min[2];
@@ -334,7 +340,6 @@ bool check_boundary(double _x, double _y, double _z, const Setting& _set) {
 // 自间隙型与自间隙型相遇， 位置为位置对自间隙数目加权
 // 其余的情况为目前四种元素数目的加权
 // 问题， 如果一个大空位碰到小空位， 小空位本不能让大空位移动，但他要移动到最近格点，所以会出现跃迁。
-
 void generate_new_pos(Object& _obj1, Object& _obj2, std::array<double, 3>& _new_pos)
 {
 	double dist = pow(pow((_obj1.pos.at(0) - _obj2.pos.at(0)), 2) + pow((_obj1.pos.at(1) - _obj2.pos.at(1)), 2)
@@ -440,4 +445,13 @@ void generate_new_pos(Object& _obj1, Object& _obj2, std::array<double, 3>& _new_
 	//	std::cout << "generate_new_pos时位置出问题, pos[0], pos[1] ,pos[2]" << _new_pos[0] << ' ' << _new_pos[1] << ' ' << _new_pos[2] << "\n";
 	//	system("pause");
 	//}
+}
+
+
+bool check_bubble_rupture(Object* _obj, const Setting& _set){
+	// 如果不是He泡 或者不是Be泡， 直接返回 false
+	if( !( _obj->size[0]>0 && (_obj->size[2]>0 || _obj->size[3]>0))) return false;
+	bool flag = _obj->pos[2] < _obj->radius * _set.rupture_k + _set.rupture_d0 / _set.a0;
+	if(flag) return true;
+	else return false;
 }
